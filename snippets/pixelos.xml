@@ -3,7 +3,7 @@
   <project path="art" name="PixelOS-AOSP/android_art" groups="pdk" remote="github" />
   <project path="bionic" name="PixelOS-AOSP/android_bionic" groups="pdk" remote="github" />
   <project path="bootable/deprecated-ota" name="PixelOS-AOSP/android_bootable_deprecated-ota" groups="pdk-cw" remote="github" />
-  <project path="bootable/recovery" name="PixelOS-AOSP/android_bootable_recovery" groups="pdk" remote="github" />
+  <project path="bootable/recovery" name="pos-aether/android_bootable_recovery" groups="pdk" remote="github" />
   <project path="build/make" name="PixelOS-AOSP/android_build" groups="pdk,sysui-studio" remote="github">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -44,7 +44,7 @@
   <project path="packages/apps/Contacts" name="PixelOS-AOSP/android_packages_apps_Contacts" groups="pdk-fs" remote="github" />
   <project path="packages/apps/DocumentsUI" name="PixelOS-AOSP/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
-  <project path="packages/apps/Settings" name="PixelOS-AOSP/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
+  <project path="packages/apps/Settings" name="pos-aether/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
   <project path="packages/apps/Stk" name="PixelOS-AOSP/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
   <project path="packages/apps/Updater" name="PixelOS-AOSP/android_packages_apps_Updater" remote="github" />
@@ -64,15 +64,15 @@
   <project path="system/bpf" name="PixelOS-AOSP/android_system_bpf" groups="pdk" remote="github" />
   <project path="system/chre" name="PixelOS-AOSP/android_system_chre" groups="pdk" remote="github" />
   <project path="system/core" name="PixelOS-AOSP/android_system_core" groups="pdk" remote="github" />
-  <project path="system/logging" name="PixelOS-AOSP/android_system_logging" groups="pdk" remote="github" />
+  <project path="system/logging" name="pos-aether/android_system_logging" groups="pdk" remote="github" />
   <project path="system/libziparchive" name="PixelOS-AOSP/android_system_libziparchive" groups="pdk" remote="github" />
   <project path="system/media" name="PixelOS-AOSP/android_system_media" groups="pdk" remote="github" />
   <project path="system/sepolicy" name="PixelOS-AOSP/android_system_sepolicy" groups="pdk" remote="github" />
   <project path="system/security" name="PixelOS-AOSP/android_system_security" groups="pdk" remote="github" />
   <project path="system/update_engine" name="PixelOS-AOSP/android_system_update_engine" groups="pdk" remote="github" />
   <project path="system/vold" name="PixelOS-AOSP/android_system_vold" groups="pdk" remote="github" />
-  <project path="vendor/lineage" name="PixelOS-AOSP/android_vendor_lineage" remote="github" />
-  <project path="vendor/custom" name="PixelOS-AOSP/android_vendor_custom" remote="github" />
+  <project path="vendor/lineage" name="pos-aether/android_vendor_lineage" remote="github" />
+  <project path="vendor/custom" name="pos-aether/android_vendor_custom" remote="github" />
   <project path="vendor/custom-preference" name="PixelOS-AOSP/android_vendor_custom-preference" remote="github" />
 
   <!-- Tools -->
