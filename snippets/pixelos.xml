@@ -47,7 +47,7 @@
   <project path="packages/apps/Settings" name="pos-aether/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
   <project path="packages/apps/Stk" name="PixelOS-AOSP/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" />
   <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
-  <project path="packages/apps/Updater" name="PixelOS-AOSP/android_packages_apps_Updater" remote="github" />
+  <project path="packages/apps/Updater" name="pos-aether/android_packages_apps_Updater" remote="github" />
   <project path="packages/apps/LMOFreeform" name="pos-aether/platform_packages_apps_LMOFreeform" remote="github" revision="sixteen-qpr0" />
   <project path="packages/modules/adb" name="PixelOS-AOSP/android_packages_modules_adb" groups="pdk" remote="github" />
   <project path="packages/modules/Bluetooth" name="PixelOS-AOSP/android_packages_modules_Bluetooth" groups="pdk" remote="github" />
